@@ -22,8 +22,6 @@ h1{
 
 .checkbox{
     width: 400px;
-    /* border-collapse: collapse;
-    border-spacing: 0; */
     border: 5px solid rgb(136, 131, 158);
     background: rgb(136, 131, 158);
     margin: auto;
@@ -38,7 +36,6 @@ label:active{
 }
 
 input{
-    /* display: flex; */
     position: relative;
     height: 20px; 
     width: 20px;
@@ -49,8 +46,7 @@ input{
 }
 
 input:checked + label{
-    background-color: rgb(122, 117, 147);
-    
+    background-color: rgb(122, 117, 147);  
 }
 
 footer{
@@ -61,10 +57,7 @@ background: rgb(74, 79, 86);
 width: 400px;
 /* margin-top: 3%; */
 margin: auto;
-
 }
-
-
 
 strong::after{
     content: ":)";
