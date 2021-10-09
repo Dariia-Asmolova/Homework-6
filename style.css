@@ -47,6 +47,7 @@ input{
 
 input:checked + label{
     background-color: rgb(122, 117, 147);  
+    text-decoration: line-through;
 }
 
 footer{
